@@ -15,7 +15,7 @@ try {
  */
 
 try {
-    const res = await fetch("https://api.coingecko.com/api/v3/coins/bitcoin")
+    const res = await fetch("https://api.coingecko.com/api/v3/coins/dogecoin")
     if (!res.ok) {
         throw Error("Something went wrong")
     }
